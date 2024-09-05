@@ -21,10 +21,6 @@ def jobs_index(user_id):
         return jobs
     except:
         return "Application Error", 500
-    
-@jobs_blueprint.route('/hello')
-def hello_index():
-    return 'Hello, World!'
 
 # Create a job
 
