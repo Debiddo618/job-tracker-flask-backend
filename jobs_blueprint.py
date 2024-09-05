@@ -24,7 +24,7 @@ def jobs_index(user_id):
     
 @jobs_blueprint.route('/hello')
 def hello_index():
-    return 'Hello, World'
+    return 'Hello, World!'
 
 # Create a job
 
